@@ -1,0 +1,308 @@
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.mainHeader{
+    height:50px;
+    width: 100%;
+    background-color: red;
+}
+
+.navigationBar{
+    height:50px;
+    width: 100%;
+    background-color: brown;
+}
+
+.principal{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    background-color: blue;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lateral{
+    display: flex;
+    height: 480px;
+    width: 20%;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articulo{
+    display: flex;
+    height: 480px;
+    width: 75%;
+    background-color: pink;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainFooter{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mainHeader {
+        background-color: pink;
+        color: white;
+    }
+    .navigationBar{
+        background: orange;
+        color: white;
+    }
+    .principal{
+        background: green;
+        height: 100%;
+    }
+    .lateral{
+        background-color: blue;
+        height: 26em;
+        width: 25%;
+        color: white;
+       
+    }
+    .articulo{
+        display: flex;
+        background-color:white;
+        height: 26em;
+        width: 60%;
+        color:red;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .imagen1{
+        height: 10%;
+        width: 40%;
+        background-image: url("1.jpg");
+        background-size: cover;
+        
+    }
+    .imagen2{
+        height: 10%;
+        width: 40%;
+        background-image: url("2.jpg");
+        background-size: cover;
+        
+    }
+    .imagen3{
+        height: 10%;
+        width: 40%;
+        background-image: url("3.jpg");
+        background-size: cover;
+        
+    }
+    .imagen4{
+        height: 10%;
+        width: 40%;
+        background-image: url("4.jpg");
+        background-size: cover;
+        
+    }
+    .imagen5{
+        height: 10%;
+        width: 40%;
+        background-image: url("5.jpg");
+        background-size: cover;
+        
+    }
+    .imagen6{
+        height: 10%;
+        width: 40%;
+        background-image: url("6.jpg");
+        background-size: cover;
+        
+    }
+    .imagen7{
+        height: 10%;
+        width: 40%;
+        background-image: url("7.jpg");
+        background-size: cover;
+        
+    }
+    .imagen8{
+        height: 10%;
+        width: 40%;
+        background-image: url("8.jpg");
+        background-size: cover;
+        
+    }
+    .imagen9{
+        height: 10%;
+        width: 40%;
+        background-image: url("9.jpg");
+        background-size: cover;
+        
+    }
+    .mainFooter{
+        background-color: black;
+        color:white
+        
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .mainHeader {
+        background-color: white;
+        color: yellow;
+    }
+    .navigationBar{
+        background: orange;
+        color: white;
+    }
+    .principal{
+        background: green;
+        height: 30rem;
+    }
+    .lateral{
+        background-color: blue;
+        height: 40em;
+        color: white;
+       
+    }
+    .articulo{
+        background-color:white;
+        height: 26em;
+        width: 14em;
+        color:red
+      
+    }
+    .mainFooter{
+        background-color: black;
+        color:white
+        
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .mainHeader {
+        background-color: white;
+        color: red;
+    }
+    .navigationBar{
+        background-color: blue;
+        color: pink;
+    }
+    .principal{
+        background: black;
+        height: 30rem;
+        width: 100%;
+    }
+    .lateral{
+        background-color: blue;
+        height: 27em;
+        width: 25%;
+        color: white;
+       
+    }
+    .articulo{
+        display: flex;
+        background-color:white;
+        height: 27em;
+        width: 70%;
+        color:red;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .imagen1{
+        height: 30%;
+        width: 30%;
+        background-image: url("1.jpg");
+        background-size: cover;
+        
+    }
+    .imagen2{
+        height: 30%;
+        width: 30%;
+        background-image: url("2.jpg");
+        background-size: cover;
+        
+    }
+    .imagen3{
+        height: 30%;
+        width: 30%;
+        background-image: url("3.jpg");
+        background-size: cover;
+        
+    }
+    .imagen4{
+        height: 30%;
+        width: 30%;
+        background-image: url("4.jpg");
+        background-size: cover;
+        
+    }
+    .imagen5{
+        height: 30%;
+        width: 30%;
+        background-image: url("5.jpg");
+        background-size: cover;
+        
+    }
+    .imagen6{
+        height: 30%;
+        width: 30%;
+        background-image: url("6.jpg");
+        background-size: cover;
+        
+    }
+    .imagen7{
+        height: 30%;
+        width: 30%;
+        background-image: url("7.jpg");
+        background-size: cover;
+        
+    }
+    .imagen8{
+        height: 30%;
+        width: 30%;
+        background-image: url("8.jpg");
+        background-size: cover;
+        
+    }
+    .imagen9{
+        height: 30%;
+        width: 30%;
+        background-image: url("9.jpg");
+        background-size: cover;
+        
+    }
+    .mainFooter{
+        background-color: yellow;
+        color:black
+        
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
